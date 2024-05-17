@@ -6,57 +6,71 @@
 }
 .circles {
     position: absolute;
-    border-radius: 100%;
-}
-.circle-1 {
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%) translateZ(20px) rotateX(50deg) rotateY(100deg);
+    border-radius: 100%;
     width: 200px;
     height: 200px;
     border-top: 8px solid black;
+}
+.circle-1 {
+    transform:
+    translate(-50%, -50%)
+    translateZ(20px) rotateX(50deg) rotateY(100deg);
     animation: spin-1 1.5s infinite linear;
 }
 .circle-2 {
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%) translateZ(20px) rotateX(50deg) rotateY(300deg);
-    width: 200px;
-    height: 200px;
-    border-top: 8px solid black;
+    transform:
+    translate(-50%, -50%)
+    translateZ(20px) rotateX(50deg) rotateY(300deg);
     animation: spin-2 1.5s infinite linear;
 }
 .circle-3 {
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%) translateZ(20px) rotateX(50deg) rotateY(200deg);
-    width: 200px;
-    height: 200px;
-    border-top: 8px solid black;
+    transform:
+    translate(-50%, -50%)
+    translateZ(20px) rotateX(50deg) rotateY(200deg);
     animation: spin-3 1.5s infinite linear;
 }
 
 @keyframes spin-1 {
     from {
-        transform: translate(-50%, -50%) translateZ(20px) rotateX(50deg) rotateY(100deg) rotateZ(0);
+        transform:
+        translate(-50%, -50%)
+        translateZ(20px)
+        rotateX(50deg) rotateY(100deg) rotateZ(0);
     }
     to {
-        transform: translate(-50%, -50%) translateZ(20px) rotateX(50deg) rotateY(100deg) rotateZ(360deg);
+        transform:
+        translate(-50%, -50%)
+        translateZ(20px)
+        rotateX(50deg) rotateY(100deg) rotateZ(360deg);
     }
 }
 @keyframes spin-2 {
     from {
-        transform: translate(-50%, -50%) translateZ(20px) rotateX(50deg) rotateY(300deg) rotateZ(0);
+        transform:
+        translate(-50%, -50%)
+        translateZ(20px)
+        rotateX(50deg) rotateY(300deg) rotateZ(0);
     }
     to {
-        transform: translate(-50%, -50%) translateZ(20px) rotateX(50deg) rotateY(300deg) rotateZ(360deg);
+        transform:
+        translate(-50%, -50%)
+        translateZ(20px)
+        rotateX(50deg) rotateY(300deg) rotateZ(360deg);
     }
 }
 @keyframes spin-3 {
     from {
-        transform: translate(-50%, -50%) translateZ(20px) rotateX(50deg) rotateY(200deg) rotateZ(0);
+        transform:
+        translate(-50%, -50%)
+        translateZ(20px)
+        rotateX(50deg) rotateY(200deg) rotateZ(0);
     }
     to {
-        transform: translate(-50%, -50%) translateZ(20px) rotateX(50deg) rotateY(200deg) rotateZ(360deg);
+        transform:
+        translate(-50%, -50%)
+        translateZ(20px)
+        rotateX(50deg) rotateY(200deg) rotateZ(360deg);
     }
 }
